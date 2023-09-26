@@ -1,0 +1,20 @@
+The script are related to the behavior estimation method, described in the article:
+``Game Theoretical Inference of Human Behaviour in Social Networks''.
+
+The code is structured as follows:
+- test folder: contains 4 different tests, 2 for the data-sets (Medici and Australian bank);
+  and 2 for the complex network analysis (preferential attachment and small-world);
+- Datasets folder: contains the 2 data-sets, and related setup files;
+- complex_networks folder: contains the utilities to create prototypical complex networks;
+- behavior_estimation_method folder: contains the scripts needed to perform the statistical
+  analysis described as behavior estimation method in the paper.
+- utilities folder: contains some utilities file, such as plot files.
+
+We execute the code on Matlab R2018a. In order to perform some output operations, we 
+use matlab2tikz available here: https://github.com/matlab2tikz/matlab2tikz. 
+Moreover, in order to perform the polyhedra description, we use the software package called 
+Multi-parametric Toolbox 3 available here: www.mpt3.org
+We also provide the installation file: utilities/install_mpt3.m
+
+
+
